@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    border-width: none;
+    background-color: lightgray;
+    font-family: "Jost" , sans-serif ;
+}
+
+nav{
+    width: auto;
+    height:auto ;
+}
+.nav_links{
+    background-color: grey;
+    display: flex;
+    width: auto;
+    height: 100%;
+    padding: 1rem 10rem 1rem 50rem  ;
+    list-style: none;
+    gap:5rem;
+    
+}
+.nav_link a{
+    color: black;
+    border-radius: none;
+    font-size: 32px;
+    background-color: grey;
+    text-decoration: none;
+     
+}
+.nav_link a:hover{
+    color: rgb(31, 30, 30);   
+}
+.nav_link a:active{
+    color: rgb(104, 101, 101);   
+}
+.Sobre_Mi img{
+    max-width: 400px;
+    height: auto;
+    margin:2rem 25rem;
+    border-radius: 50px;
+}
+.Sobre_Mi h3{
+    margin-left: 50rem;
+}
+.Sobre_Mi h1{
+    margin-left: 50rem;
+}
+.Sobre_Mi p{
+    margin-left: 50rem;
+    width: 25%;
+}
+
+
+
+
+
