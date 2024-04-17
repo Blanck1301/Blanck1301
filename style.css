@@ -1,55 +1,109 @@
+/* Estilado general */
 *{
-    padding: 0;
-    margin: 0;
-    border-width: none;
-    background-color: lightgray;
-    font-family: "Jost" , sans-serif ;
+    margin:0;
+    padding:9;
+    border-width: 0;
 }
 
-nav{
-    width: auto;
-    height:auto ;
+/* Estilado del Top Header de la página */
+header img{
+    max-width: 200px;
+    padding: 2px;
+    margin-left: 6vw;
 }
-.nav_links{
-    background-color: grey;
+header{
     display: flex;
-    width: auto;
-    height: 100%;
-    padding: 1rem 10rem 1rem 50rem  ;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    color:rgb(255, 166, 0);
+}
+nav ul{
+    display: flex;
     list-style: none;
-    gap:5rem;
+    gap: 6vw;
+    padding: 32px;
+    margin-right: 6vw;
+}
+nav ul li{
+    font-size: 2rem;
+    font-family:"Lato", sans-serif;
+}
+nav ul li a{
+    text-decoration: none;
+    color:inherit;
+    transition: color 0.3s;
+}
+nav ul li a:hover{
+    color:rgb(248, 191, 85);
+}
+nav ul li a:active{
+    transition: none;
+    color:rgb(255, 232, 189);
+}
+
+/* Estilado del contenido main*/
+main{
+    background-color: lightgrey;
+}
+
+
+/* Estilado de Presentación*/
+#presentacion img{
+    max-width: 30vw;
+    padding:16px;
+    margin-left:10vw;
+    border-radius: 50%;
+
+}
+#presentacion{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10vw;
+    margin-bottom:10rem;
     
 }
-.nav_link a{
-    color: black;
-    border-radius: none;
-    font-size: 32px;
-    background-color: grey;
-    text-decoration: none;
+
+
+/* Estilado de Habilidades*/
+#habilidades{
+    text-align: center;
+    font-size: 1.5rem; 
+}
+#habilidades ul{
+    display: inline-block;
+    text-align: left;
+    list-style:none;
+    margin-top: 2rem; 
+    margin-bottom: 2rem;
+}
+#habilidades ul li{
+    margin-bottom:1rem;
      
 }
-.nav_link a:hover{
-    color: rgb(31, 30, 30);   
+/* Estilado de Mis Trabajos*/
+
+#mis_trabajos ul{
+    list-style: none;
 }
-.nav_link a:active{
-    color: rgb(104, 101, 101);   
+/* Estilado del Footer*/
+footer{
+    width: 100%;
+    background-color: grey;
+    font-size:2rem;
+    padding-top: 3rem;
+    padding-bottom:3rem;
 }
-.Sobre_Mi img{
-    max-width: 400px;
-    height: auto;
-    margin:2rem 25rem;
-    border-radius: 50px;
+.contacto ul {
+    list-style:none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 18rem;
 }
-.Sobre_Mi h3{
-    margin-left: 50rem;
-}
-.Sobre_Mi h1{
-    margin-left: 50rem;
-}
-.Sobre_Mi p{
-    margin-left: 50rem;
-    width: 25%;
-}
+
+
 
 
 
