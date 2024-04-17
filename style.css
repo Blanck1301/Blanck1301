@@ -3,6 +3,7 @@
     margin:0;
     padding:9;
     border-width: 0;
+    font-family: "Kode Mono", monospace;
 }
 
 /* Estilado del Top Header de la página */
@@ -27,7 +28,6 @@ nav ul{
 }
 nav ul li{
     font-size: 2rem;
-    font-family:"Lato", sans-serif;
 }
 nav ul li a{
     text-decoration: none;
