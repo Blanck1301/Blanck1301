@@ -7,8 +7,10 @@
 }
 
 /* Estilado del Top Header de la página */
+
+
 header img{
-    max-width: 200px;
+    max-width: 160px;
     padding: 2px;
     margin-left: 6vw;
 }
@@ -16,7 +18,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: grey;
+    background-color: rgb(51, 51, 51);
     color:rgb(255, 166, 0);
 }
 nav ul{
@@ -44,17 +46,24 @@ nav ul li a:active{
 
 /* Estilado del contenido main*/
 main{
-    background-color: lightgrey;
+    background-image: linear-gradient(to bottom, rgb(83, 83, 83), lightgrey);
+    background-attachment: fixed;
 }
 
 
 /* Estilado de Presentación*/
+
+strong{
+    color:orange;
+    font-size:3rem;
+}
+
 #presentacion img{
     max-width: 30vw;
-    padding:16px;
+    padding:3px;
     margin-left:10vw;
     border-radius: 50%;
-
+    
 }
 #presentacion{
     font-size: 1.5rem;
@@ -62,10 +71,19 @@ main{
     justify-content: space-between;
     align-items: center;
     margin-right: 10vw;
-    margin-bottom:10rem;
+    margin-bottom:300px;
     
 }
-
+.presentacion_texto h1, .presentacion_texto h3{
+    text-align: right;
+    padding-right: 10vw;   
+}
+.presentacion_texto h1{
+    margin-bottom:200px;
+}
+.presentacion_texto h3{
+    padding-top:200px;
+}
 
 /* Estilado de Habilidades*/
 #habilidades{
@@ -79,6 +97,14 @@ main{
     margin-top: 2rem; 
     margin-bottom: 2rem;
 }
+#habilidades h1{
+    font-size: 3.5rem;
+    padding-top:70px;
+}
+#habilidades h3{
+    padding-top:100px;
+    padding-bottom: 30px;
+}
 #habilidades ul li{
     margin-bottom:1rem;
      
@@ -90,8 +116,9 @@ main{
 }
 /* Estilado del Footer*/
 footer{
+    color: orange;
     width: 100%;
-    background-color: grey;
+    background-color: rgb(51, 51, 51);
     font-size:2rem;
     padding-top: 3rem;
     padding-bottom:3rem;
