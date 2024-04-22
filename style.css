@@ -87,7 +87,7 @@ strong{
     margin-bottom:256px;
     
 }
-.presentacion_texto h1, .presentacion_texto h3{
+.presentacion_texto h1, .presentacion_texto h3, .presentacion_texto p{
     text-align: right;
     padding-right: 10vw;   
 }
@@ -100,11 +100,15 @@ strong{
 
 /* Estilado de Habilidades*/
 #habilidades{
+
     padding-top:32px;
     text-align: center;
     font-size: 1.5rem; 
 }
-#habilidades ul{
+#habilidades img{
+    width:64px;
+}
+.habilidades ul{
     display: inline-block;
     text-align: left;
     list-style:none;   
@@ -113,6 +117,18 @@ strong{
     font-size: 3.5rem;
     padding-top:70px;
     padding-bottom:64px;
+}
+.habilidades{
+    display: flex;
+    justify-content: space-between;
+    align-items:first baseline;
+    padding:30px 20vw;
+}
+.habilidades li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
 .tecnologias{
@@ -131,6 +147,7 @@ strong{
 #mis_trabajos{
     text-align: center;
     padding-top:128px;
+    font-size:1.5rem;
 }
 #mis_trabajos ul{
     padding-top:64px;
@@ -148,7 +165,7 @@ footer{
     padding-top: 16px;
     padding-bottom:16px;
 }
-.contacto ul {
+#contacto ul {
     list-style:none;
     display: flex;
     justify-content: space-between;
