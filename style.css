@@ -3,7 +3,7 @@
     margin:0;
     padding:9;
     border-width: 0;
-    font-family: "Kode Mono", monospace;
+    font-family: "Space Mono", monospace;
 }
 
 /* Estilado del Top Header de la página */
@@ -16,21 +16,27 @@ header img{
 }
 header{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     background-color: rgb(51, 51, 51);
     color:rgb(255, 166, 0);
     position:fixed;
+    height:80px;
+    width:100%;
+    text-align: center;
+    
+}
+nav{
+    width: 100%;
 }
 nav ul{
-    display: flex;
+    display:inline-flex;
     list-style: none;
     gap: 6vw;
     padding: 3px;
-    margin-right: 6vw;
+    
 }
 nav ul li{
-    font-size: 2rem;
+    font-size: 1rem;
 }
 nav ul li a{
     text-decoration: none;
@@ -58,19 +64,25 @@ strong{
     color:orange;
     font-size:3rem;
 }
-
-#presentacion img{
-    max-width: 30vw;
-    padding:3px;
-    margin-left:10vw;
+.imagen{
+    width: 80vw;
+    max-width: 360px;
+    padding-left: 8vw;
+    padding-top:48px;
+}
+ #presentacion img{
+    max-width: 100%;
+    height: auto;
     border-radius: 50%;
     
-}
+} 
 #presentacion{
+    padding-top:124px;
+    width:100%;
     font-size: 1.5rem;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    text-align: center;
     margin-right: 10vw;
     margin-bottom:256px;
     
@@ -88,6 +100,7 @@ strong{
 
 /* Estilado de Habilidades*/
 #habilidades{
+    padding-top:32px;
     text-align: center;
     font-size: 1.5rem; 
 }
