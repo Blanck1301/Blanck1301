@@ -1,9 +1,12 @@
 /* Estilado general */
 *{
     margin:0;
-    padding:9;
+    padding:0;
     border-width: 0;
     font-family: "Space Mono", monospace;
+}
+html{
+    scroll-behavior: smooth;
 }
 
 /* Estilado del Top Header de la página */
@@ -121,22 +124,42 @@ strong{
 .habilidades{
     display: flex;
     justify-content: space-between;
-    align-items:first baseline;
-    padding:30px 20vw;
+    align-items:center;
+    
+}
+.experiencia{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:15vw;
+    padding-left: 20vw;
+    
 }
 .habilidades li{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 
 }
+.html_css_list_item{
+    display:inline-flex;
+    align-items: center;
+    gap:1rem;
+    
+}
+
 
 .tecnologias{
-    padding-top:64px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+    min-width:400px;
     padding-bottom: 64px;
 }
 .fortalezas{
-    padding-top:64px;
+    
+    min-width:400px;
     padding-bottom: 64px;
 }
 #habilidades ul li{
